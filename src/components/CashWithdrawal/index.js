@@ -21,8 +21,8 @@ class CashWithdrawal extends Component {
     const initial = name.slice(0, 1)
 
     return (
-      <div className="container">
-        <div className="withdrawal-container">
+      <div className="app-container">
+        <div className="cash-withdrawal-container">
           <div className="user-details-container">
             <div className="initial-container">
               <p className="initial">{initial}</p>

@@ -1,11 +1,12 @@
 /* Write your CSS here */
-.container {
+.app-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-.withdrawal-container {
+
+.cash-withdrawal-container {
   background-color: #150b3e;
   width: 80%;
   border-radius: 16px;
@@ -15,8 +16,9 @@
   padding-right: 18px;
   max-width: 350px;
 }
-@media screen and(min-width:768px) {
-  .withdrawal-container {
+
+@media screen and (min-width: 768px) {
+  .cash-withdrawal-container {
     width: 50%;
     padding-top: 48px;
     padding-bottom: 16px;
@@ -25,45 +27,52 @@
     max-width: 420px;
   }
 }
+
 .user-details-container {
   display: flex;
 }
+
 .initial-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #7c3aed;
+  background-color: #c7d2fe;
   height: 48px;
   width: 48px;
   border-radius: 24px;
 }
+
 @media screen and (min-width: 768px) {
   .initial-container {
-    height: 60px;
-    width: 60px;
-    border-radius: 30px;
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
   }
 }
+
 .initial {
   color: #7c3aed;
   font-size: 14px;
   font-family: 'Roboto';
 }
+
 .name {
   color: #d4d2db;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Roboto';
   margin-left: 8px;
 }
+
 @media screen and (min-width: 768px) {
   .name {
     font-size: 20px;
     margin-left: 16px;
   }
 }
+
 .balance-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 24px;
 }
 
@@ -74,12 +83,14 @@
   font-weight: 500;
   margin-top: 4px;
 }
+
 @media screen and (min-width: 768px) {
   .your-balance {
     font-size: 20px;
     margin-top: 8px;
   }
 }
+
 .balance {
   color: #d4d2db;
   font-family: 'Roboto';
@@ -87,21 +98,25 @@
   font-weight: 500;
   margin: 0;
 }
+
 @media screen and (min-width: 768px) {
   .balance {
     font-size: 32px;
   }
 }
+
 .currency {
   color: #585076;
   font-size: 12px;
   font-weight: 500;
 }
-@media screen and(min-width:768px) {
+
+@media screen and (min-width: 768px) {
   .currency {
     font-size: 12px;
   }
 }
+
 .withdraw {
   color: #d4d2db;
   font-family: 'Roboto';
@@ -109,12 +124,14 @@
   font-weight: 500;
   margin-top: 16px;
 }
+
 @media screen and (min-width: 768px) {
   .withdraw {
     font-size: 24px;
     margin-top: 24px;
   }
 }
+
 .choose-sum {
   color: #585076;
   font-family: 'Roboto';
@@ -122,12 +139,14 @@
   font-weight: 500;
   margin-bottom: 12px;
 }
+
 @media screen and (min-width: 768px) {
   .choose-sum {
     font-size: 16px;
     margin-bottom: 24px;
   }
 }
+
 .denominations-list {
   padding-left: 0px;
   display: flex;
